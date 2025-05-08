@@ -2,16 +2,19 @@
 
 Este es un proyecto Java que permite convertir monedas utilizando la API de [ExchangeRate-API](https://www.exchangerate-api.com/).
 
- Estructura
+## 📦 Estructura
 - `Main.java`: Entrada del programa
 - `ConversorMoneda.java`: Lógica de conversión
 - `HttpService.java`: Conexión HTTP usando `HttpClient`
 - `ApiResponse.java`: Clase `record` para mapear respuesta JSON
 - `Config.java`: Carga segura de tu API key
 
+## 🔐 Configuración
+Crea un archivo `config.properties` dentro de la carpeta `src/` con tu API key:
 
-  
-  Funcionalidades
+
+
+## 🚀 Funcionalidades
 
 - Conversión entre las siguientes monedas:
   - USD ↔ COP (Peso colombiano)
@@ -23,11 +26,12 @@ Este es un proyecto Java que permite convertir monedas utilizando la API de [Exc
 
 ---
 
- Requisitos
+## 🧩 Requisitos
 
 - Java 11 o superior
 - Conexión a internet
 - Una cuenta gratuita en [ExchangeRate-API](https://www.exchangerate-api.com/) para obtener tu API Key
+
 
 
 
