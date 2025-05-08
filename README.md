@@ -10,3 +10,24 @@ Este es un proyecto Java que permite convertir monedas utilizando la API de [Exc
 - `Config.java`: Carga segura de tu API key
 
 
+  
+## 🚀 Funcionalidades
+
+- Conversión entre las siguientes monedas:
+  - USD ↔ COP (Peso colombiano)
+  - USD ↔ BRL (Real brasileño)
+  - USD ↔ ARS (Peso argentino)
+- Conexión a API externa para obtener tasas de cambio en tiempo real.
+- Separación clara entre lógica de red, lógica de negocio y entrada del usuario.
+- Protección de la API Key mediante archivo de configuración `.properties`.
+
+---
+
+## 🧩 Requisitos
+
+- Java 11 o superior
+- Conexión a internet
+- Una cuenta gratuita en [ExchangeRate-API](https://www.exchangerate-api.com/) para obtener tu API Key
+
+
+
