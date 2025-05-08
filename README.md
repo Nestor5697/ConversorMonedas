@@ -28,7 +28,7 @@ Crea un archivo `config.properties` dentro de la carpeta `src/` con tu API key:
 
 ## 🧩 Requisitos
 
-- Java 11 o superior
+- Java 16 o superior
 - Conexión a internet
 - Una cuenta gratuita en [ExchangeRate-API](https://www.exchangerate-api.com/) para obtener tu API Key
 
